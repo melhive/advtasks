@@ -102,7 +102,7 @@ const BOARD_TEMPLATES = {
     label: 'Affiliate marketing',
     icon: 'ti-link',
     accent: 'af',
-    columns: ['Prospecting', 'Content creation', 'Live', 'Optimizing'],
+    columns: ['Ideas', 'Scripting', 'Scheduled', 'Completed'],
     fields: [
       { key: 'platform', label: 'Platform', type: 'text' },
       { key: 'affiliate_link', label: 'Affiliate link', type: 'url' },
@@ -120,7 +120,7 @@ const BOARD_TEMPLATES = {
     label: 'Workout',
     icon: 'ti-barbell',
     accent: 'wo',
-    columns: ['Planned', 'Today', 'Completed'],
+    columns: ['Planned', 'Executed', 'Completed'],
     fields: [
       { key: 'exercise', label: 'Exercise', type: 'text' },
       { key: 'sets', label: 'Sets', type: 'number' },
