@@ -74,7 +74,7 @@ function applyStoredTheme() {
   const saved = localStorage.getItem('advtasks_theme');
   if (saved === 'light') {
     document.documentElement.setAttribute('data-theme', 'light');
-    $('#theme-toggle-btn') && ($('#theme-toggle-btn').textContent = 'dark mode');
+    $('#theme-toggle-btn') && ($('#theme-toggle-btn').textContent = 'Dark mode');
   }
 }
 
